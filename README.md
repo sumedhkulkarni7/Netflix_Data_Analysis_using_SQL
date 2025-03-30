@@ -19,9 +19,11 @@ Kaggle Link for the Dataset: [Movies Dataset ](https://www.kaggle.com/datasets/s
 
 ## Business Problems and Solutions
 
+
 ### 1. Count the number of Movies vs TV Shows
 
-SELECT type, COUNT(*) as total_content
+''' SELECT type, COUNT(*) as total_content
 FROM netflix
 GROUP BY type
 ORDER BY type DESC;
+'''
