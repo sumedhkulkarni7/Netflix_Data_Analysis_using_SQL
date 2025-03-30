@@ -17,9 +17,9 @@ The data for this project is sourced from the Kaggle dataset:
 Kaggle Link for the Dataset: [Movies Dataset ](https://www.kaggle.com/datasets/shivamb/netflix-shows?resource=download)
 
 
-##Business Problems and Solutions
+## Business Problems and Solutions
 
-###1. Count the number of Movies vs TV Shows
+### 1. Count the number of Movies vs TV Shows
 
 SELECT type, COUNT(*) as total_content
 FROM netflix
